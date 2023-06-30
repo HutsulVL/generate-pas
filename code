@@ -1,0 +1,28 @@
+import random
+
+rocket_words = [
+    "Thrust",
+    "Payload",
+    "Launch",
+    "Propulsion",
+    "Orbit",
+    "Rocket",
+    "Boosters",
+    "Trajectory",
+    "Apoapsis",
+    "Perigee",
+    "Inertial",
+    "Stage",
+    "Velocity",
+    "Guidance",
+    "Liftoff",
+    "Reentry",
+    "Combustion",
+    "Exhaust",
+    "Stabilization",
+    "Ignition"
+]
+
+# Generate a random password with three random words from the list
+password = '-'.join(random.sample(rocket_words, 3))
+print(password)
